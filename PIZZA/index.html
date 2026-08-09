@@ -1,1 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Pizzaiolo Oakville - Pizza made fresh with quality ingredients.">
+
+    <title>Pizzaiolo | Oakville</title>
+
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                PIZZAIOLO
+            </a>
+
+
+            <button
+                type="button"
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open navigation menu">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+
+                <li>
+                    <a href="#about">Our Story</a>
+                </li>
+
+                <li>
+                    <a href="#location">Location</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+<li>
+
+    <button
+        type="button"
+        class="cart-button"
+        id="cartButton">
+
+        🛒
+
+        <span
+            class="cart-count"
+            id="cartCount">
+
+            0
+
+        </span>
+
+    </button>
+
+</li>
+                <li>
+                    <a href="#menu" class="order-button">
+                        Order Now
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-overlay"></div>
+
+
+            <div class="hero-content">
+
+                <p class="hero-eyebrow">
+                    OAKVILLE • ONTARIO
+                </p>
+
+
+                <h1>
+                    Pizza made<br>
+                    <span>fresh.</span>
+                </h1>
+
+
+                <p class="hero-description">
+
+                    Handcrafted pizza made with quality ingredients,
+                    bold flavours and a whole lot of passion.
+
+                </p>
+
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#menu"
+                        class="btn btn-primary">
+
+                        Order Now
+
+                    </a>
+
+
+                    <a
+                        href="#menu"
+                        class="btn btn-secondary">
+
+                        View Menu
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-scroll">
+
+                <span></span>
+
+                <p>
+                    SCROLL TO DISCOVER
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             FEATURE STRIP
+        ========================== -->
+
+        <section class="feature-strip">
+
+            <div class="feature">
+
+                <strong>
+                    FRESH
+                </strong>
+
+                <span>
+                    Ingredients
+                </span>
+
+            </div>
+
+
+            <div class="feature">
+
+                <strong>
+                    HANDCRAFTED
+                </strong>
+
+                <span>
+                    With care
+                </span>
+
+            </div>
+
+
+            <div class="feature">
+
+                <strong>
+                    BOLD
+                </strong>
+
+                <span>
+                    Flavours
+                </span>
+
+            </div>
+
+
+            <div class="feature">
+
+                <strong>
+                    LOCAL
+                </strong>
+
+                <span>
+                    Oakville
+                </span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             MENU
+        ========================== -->
+
+        <section
+            class="menu-section"
+            id="menu">
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">
+                        WHAT'S COOKING
+                    </p>
+
+
+                    <h2>
+                        Our <span>Menu</span>
+                    </h2>
+
+
+                    <p>
+
+                        Explore some of our favourite pizzas
+                        and discover your next obsession.
+
+                    </p>
+
+                </div>
+
+
+                <div class="menu-categories">
+
+                    <button
+                        type="button"
+                        class="category active">
+
+                        Pizza
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="category">
+
+                        Sides
+
+                    </button>
+
+
+                    <button
+                        type="button"
+                        class="category">
+
+                        Drinks
+
+                    </button>
+
+                </div>
+
+
+                <!-- JavaScript will create pizzas here -->
+
+                <div
+                    class="pizza-grid"
+                    id="pizzaGrid">
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             OUR STORY
+        ========================== -->
+
+        <section
+            class="story-section"
+            id="about">
+
+            <div class="container story-grid">
+
+
+                <div class="story-image">
+
+                    <div class="image-placeholder">
+
+                        PIZZA
+
+                    </div>
+
+                </div>
+
+
+                <div class="story-content">
+
+                    <p class="eyebrow">
+                        OUR STORY
+                    </p>
+
+
+                    <h2>
+
+                        Made with<br>
+                        <span>passion.</span>
+
+                    </h2>
+
+
+                    <p>
+
+                        Great pizza starts with great ingredients.
+                        We believe every pizza should be made with
+                        care, creativity and plenty of flavour.
+
+                    </p>
+
+
+                    <p>
+
+                        From our dough to our toppings,
+                        every detail matters.
+
+                    </p>
+
+
+                    <a
+                        href="#menu"
+                        class="text-link">
+
+                        Discover our menu →
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             LOCATION
+        ========================== -->
+
+        <section
+            class="location-section"
+            id="location">
+
+            <div class="container location-grid">
+
+
+                <div class="location-content">
+
+                    <p class="eyebrow">
+                        COME SAY CIAO
+                    </p>
+
+
+                    <h2>
+
+                        Visit us in<br>
+                        <span>Oakville.</span>
+
+                    </h2>
+
+
+                    <div class="location-info">
+
+
+                        <div>
+
+                            <strong>
+                                ADDRESS
+                            </strong>
+
+                            <p>
+
+                                341 Lakeshore Road East<br>
+                                Oakville, ON L6J 1J4
+
+                            </p>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                PHONE
+                            </strong>
+
+                            <p>
+                                905-337-3377
+                            </p>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                HOURS
+                            </strong>
+
+                            <p>
+
+                                Monday – Thursday: 10 AM – 10 PM<br>
+                                Friday – Saturday: 10 AM – Midnight<br>
+                                Sunday: 10 AM – 10 PM
+
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <a
+                        href="tel:9053373377"
+                        class="btn btn-primary">
+
+                        Call Location
+
+                    </a>
+
+                </div>
+
+
+                <div class="map-placeholder">
+
+                    <div>
+
+                        <span>📍</span>
+
+                        <p>
+                            341 Lakeshore Road East
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CTA
+        ========================== -->
+
+        <section class="order-cta">
+
+            <div class="cta-content">
+
+                <p class="eyebrow">
+                    HUNGRY?
+                </p>
+
+
+                <h2>
+
+                    Your pizza<br>
+                    is waiting.
+
+                </h2>
+
+
+                <a
+                    href="#menu"
+                    class="btn btn-light">
+
+                    Start Your Order
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section
+            class="contact-section"
+            id="contact">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    GET IN TOUCH
+                </p>
+
+
+                <h2>
+
+                    Let's talk <span>pizza.</span>
+
+                </h2>
+
+
+                <p>
+
+                    Questions, feedback or just want to say hello?
+                    We'd love to hear from you.
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+    </main>
+<!-- =========================
+     CART DRAWER
+========================== -->
+
+<div
+    class="cart-overlay"
+    id="cartOverlay">
+</div>
+
+
+<aside
+    class="cart-drawer"
+    id="cartDrawer">
+
+
+    <div class="cart-header">
+
+        <div>
+
+            <p class="eyebrow">
+                YOUR ORDER
+            </p>
+
+            <h2>
+                Cart
+            </h2>
+
+        </div>
+
+
+        <button
+            type="button"
+            class="cart-close"
+            id="cartClose"
+            aria-label="Close cart">
+
+            
+
+        </button>
+
+    </div>
+
+
+    <div
+        class="cart-items"
+        id="cartItems">
+
+        <div class="empty-cart">
+
+            <div class="empty-cart-icon">
+                🛒
+            </div>
+
+            <h3>
+                Your cart is empty
+            </h3>
+
+            <p>
+                Add something delicious from our menu.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="cart-footer">
+<button
+    type="button"
+    class="clear-cart"
+    id="clearCart">
+
+    CLEAR CART
+
+</button>
+        <div class="cart-total-row">
+
+            <span>
+                Subtotal
+            </span>
+
+            <strong id="cartSubtotal">
+                $0.00
+            </strong>
+
+        </div>
+
+
+        <div class="cart-total-row">
+
+            <span>
+                Tax
+            </span>
+
+            <strong id="cartTax">
+                $0.00
+            </strong>
+
+        </div>
+
+
+        <div class="cart-total-row total">
+
+            <span>
+                Total
+            </span>
+
+            <strong id="cartTotal">
+                $0.00
+            </strong>
+
+        </div>
+
+
+        <button
+            type="button"
+            class="checkout-button"
+            id="checkoutButton">
+
+            CHECKOUT
+
+        </button>
+
+    </div>
+
+</aside>
+<!-- =========================================
+     CHECKOUT MODAL
+========================================= -->
+
+<div
+    class="checkout-overlay"
+    id="checkoutOverlay">
+
+    <div
+        class="checkout-modal"
+        id="checkoutModal">
+
+
+        <!-- CHECKOUT HEADER -->
+
+        <div class="checkout-header">
+
+            <div>
+
+                <p class="eyebrow">
+                    PIZZAIOLO
+                </p>
+
+                <h2>
+                    Checkout
+                </h2>
+
+            </div>
+
+
+            <button
+                type="button"
+                class="checkout-close"
+                id="checkoutClose">
+
+                ×
+
+            </button>
+
+        </div>
+
+
+        <!-- CHECKOUT CONTENT -->
+
+        <div class="checkout-content">
+
+
+            <!-- CUSTOMER DETAILS -->
+
+            <section class="checkout-section">
+
+                <div class="checkout-section-title">
+
+                    <span class="checkout-number">
+                        01
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Your Details
+                        </h3>
+
+                        <p>
+                            Where should we send your order?
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="checkout-grid">
+
+
+                    <div class="checkout-field">
+
+                        <label for="firstName">
+                            First Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="firstName"
+                            placeholder="Kunj">
+
+                    </div>
+
+
+                    <div class="checkout-field">
+
+                        <label for="lastName">
+                            Last Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="lastName"
+                            placeholder="Patel">
+
+                    </div>
+
+
+                    <div class="checkout-field">
+
+                        <label for="phone">
+                            Phone
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            placeholder="(416) 555-0123">
+
+                    </div>
+
+
+                    <div class="checkout-field">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="you@email.com">
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ORDER TYPE -->
+
+            <section class="checkout-section">
+
+                <div class="checkout-section-title">
+
+                    <span class="checkout-number">
+                        02
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Order Type
+                        </h3>
+
+                        <p>
+                            Choose how you'd like to receive your order.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="order-type-options">
+
+
+                    <label class="order-type-option">
+
+                        <input
+                            type="radio"
+                            name="orderType"
+                            value="pickup"
+                            checked>
+
+
+                        <div class="order-type-card">
+
+                            <span class="order-type-icon">
+                                🏪
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    Pickup
+                                </strong>
+
+                                <p>
+                                    Ready in 25–35 minutes
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </label>
+
+
+                    <label class="order-type-option">
+
+                        <input
+                            type="radio"
+                            name="orderType"
+                            value="delivery">
+
+
+                        <div class="order-type-card">
+
+                            <span class="order-type-icon">
+                                🚗
+                            </span>
+
+                            <div>
+
+                                <strong>
+                                    Delivery
+                                </strong>
+
+                                <p>
+                                    Delivered to your door
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </label>
+
+                </div>
+
+            </section>
+
+
+            <!-- PICKUP LOCATION -->
+
+            <section
+                class="checkout-section"
+                id="pickupSection">
+
+                <div class="location-card">
+
+                    <div class="location-icon">
+                        📍
+                    </div>
+
+                    <div>
+
+                        <p class="location-label">
+                            PICKUP LOCATION
+                        </p>
+
+                        <h3>
+                            Pizzaiolo
+                        </h3>
+
+                        <p>
+                            341 Lakeshore Road East
+                        </p>
+
+                        <p>
+                            Oakville, ON L6J 1A4
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- DELIVERY ADDRESS -->
+
+            <section
+                class="checkout-section delivery-section"
+                id="deliverySection">
+
+                <div class="checkout-section-title">
+
+                    <span class="checkout-number">
+                        03
+                    </span>
+
+                    <div>
+
+                        <h3>
+                            Delivery Address
+                        </h3>
+
+                        <p>
+                            Where should we deliver your order?
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="checkout-grid">
+
+
+                    <div class="checkout-field full">
+
+                        <label for="street">
+                            Street Address
+                        </label>
+
+                        <input
+                            type="text"
+                            id="street"
+                            placeholder="123 Main Street">
+
+                    </div>
+
+
+                    <div class="checkout-field">
+
+                        <label for="city">
+                            City
+                        </label>
+
+                        <input
+                            type="text"
+                            id="city"
+                            placeholder="Oakville">
+
+                    </div>
+
+
+                    <div class="checkout-field">
+
+                        <label for="postal">
+                            Postal Code
+                        </label>
+
+                        <input
+                            type="text"
+                            id="postal"
+                            placeholder="L6J 1A4">
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ORDER NOTES -->
+
+            <section class="checkout-section">
+
+                <div class="checkout-field full">
+
+                    <label for="orderNotes">
+                        Order Notes
+                    </label>
+
+                    <textarea
+                        id="orderNotes"
+                        placeholder="Any special instructions?"></textarea>
+
+                </div>
+
+            </section>
+
+
+        </div>
+
+
+        <!-- CHECKOUT FOOTER -->
+
+        <div class="checkout-footer">
+
+            <div>
+
+                <span>
+                    Order Total
+                </span>
+
+                <strong id="checkoutTotal">
+                    $0.00
+                </strong>
+
+            </div>
+
+
+            <button
+                type="button"
+                class="place-order-button"
+                id="placeOrderButton">
+
+                REVIEW ORDER →
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-logo">
+                PIZZAIOLO
+            </div>
+
+
+            <p>
+                Oakville • Ontario
+            </p>
+
+
+            <p>
+                © 2026 Pizzaiolo Concept Demo
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
