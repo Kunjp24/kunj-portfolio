@@ -1,1 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta
+        name="description"
+        content="Kunj Patel — Creative Developer Portfolio"
+    >
+
+    <title>Kunj Patel | Creative Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+        defer
+    ></script>
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- LOADER -->
+    <div class="loader" id="loader">
+        <div class="loader-logo">KP<span>.</span></div>
+        <div class="loader-bar">
+            <span></span>
+        </div>
+        <p>INITIALIZING PORTFOLIO</p>
+    </div>
+
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            KP<span>.</span>
+        </a>
+
+        <nav class="desktop-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="mailto:kunjp597@gmail.com" class="nav-contact">
+            Let's Talk ↗
+        </a>
+
+        <button
+            class="menu-button"
+            type="button"
+            aria-label="Open navigation"
+        >
+            MENU
+        </button>
+
+    </header>
+
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu">
+
+        <button
+            class="mobile-close"
+            type="button"
+        >
+            CLOSE
+        </button>
+
+        <nav>
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#work">WORK</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+
+    </div>
+
+
+    <main>
+
+        <!-- =================================
+             HERO
+        ================================== -->
+
+        <section class="hero" id="home">
+
+            <canvas id="threeCanvas"></canvas>
+
+            <div class="hero-grid"></div>
+            <div class="hero-glow"></div>
+
+            <div class="hero-content">
+
+                <div class="status-pill">
+                    <span class="status-dot"></span>
+                    AVAILABLE FOR OPPORTUNITIES
+                </div>
+
+                <p class="eyebrow">
+                    CREATIVE DEVELOPER / STUDENT
+                </p>
+
+                <h1>
+                    KUNJ
+                    <span>PATEL</span>
+                </h1>
+
+                <p class="hero-text">
+                    I design and build modern digital experiences
+                    that combine clean code, thoughtful design
+                    and interactive technology.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="#work" class="btn btn-primary">
+                        VIEW MY WORK
+                        <span>↗</span>
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        CONTACT ME
+                    </a>
+
+                </div>
+
+                <div class="hero-meta">
+
+                    <div>
+                        <strong>02+</strong>
+                        <span>PROJECTS</span>
+                    </div>
+
+                    <div>
+                        <strong>08+</strong>
+                        <span>TECHNOLOGIES</span>
+                    </div>
+
+                    <div>
+                        <strong>2026</strong>
+                        <span>BUILDING</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-scroll">
+                <span>SCROLL TO EXPLORE</span>
+                <div class="scroll-line"></div>
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             ABOUT
+        ================================== -->
+
+        <section class="section about" id="about">
+
+            <div class="section-top reveal">
+
+                <span class="section-number">
+                    01
+                </span>
+
+                <span class="section-name">
+                    ABOUT ME
+                </span>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-title reveal">
+
+                    <p class="small-label">
+                        A LITTLE ABOUT ME
+                    </p>
+
+                    <h2>
+                        TURNING
+                        <span>IDEAS</span>
+                        INTO
+                        <span>DIGITAL</span>
+                        EXPERIENCES.
+                    </h2>
+
+                </div>
+
+
+                <div class="about-copy reveal">
+
+                    <p class="large-copy">
+                        I'm Kunj Patel, a developer who enjoys
+                        building websites and interactive digital
+                        experiences from the ground up.
+                    </p>
+
+                    <p>
+                        My interests include front-end development,
+                        user interface design, programming and
+                        emerging technologies. I like taking an idea,
+                        designing the experience and turning it into
+                        something people can actually use.
+                    </p>
+
+                    <p>
+                        I'm continuously learning and improving my
+                        skills through personal projects, college
+                        work and hands-on development.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        LET'S WORK TOGETHER
+                        <span>↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             MARQUEE
+        ================================== -->
+
+        <div class="marquee">
+
+            <div class="marquee-track">
+
+                <span>WEB DEVELOPMENT</span>
+                <i>✦</i>
+
+                <span>UI / UX</span>
+                <i>✦</i>
+
+                <span>JAVASCRIPT</span>
+                <i>✦</i>
+
+                <span>CREATIVE CODE</span>
+                <i>✦</i>
+
+                <span>WEB DEVELOPMENT</span>
+                <i>✦</i>
+
+                <span>UI / UX</span>
+                <i>✦</i>
+
+                <span>JAVASCRIPT</span>
+                <i>✦</i>
+
+                <span>CREATIVE CODE</span>
+                <i>✦</i>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================
+             SKILLS
+        ================================== -->
+
+        <section class="section skills" id="skills">
+
+            <div class="section-top reveal">
+
+                <span class="section-number">
+                    02
+                </span>
+
+                <span class="section-name">
+                    TECH STACK
+                </span>
+
+            </div>
+
+
+            <div class="skills-heading reveal">
+
+                <h2>
+                    TOOLS I USE TO
+                    <span>BUILD.</span>
+                </h2>
+
+                <p>
+                    Technologies and tools I've worked with
+                    across academic and personal projects.
+                </p>
+
+            </div>
+
+
+            <div class="skills-list">
+
+                <div class="skill-row reveal">
+                    <span>01</span>
+                    <strong>HTML5</strong>
+                    <em>STRUCTURE</em>
+                    <b>↗</b>
+                </div>
+
+                <div class="skill-row reveal">
+                    <span>02</span>
+                    <strong>CSS3</strong>
+                    <em>DESIGN / ANIMATION</em>
+                    <b>↗</b>
+                </div>
+
+                <div class="skill-row reveal">
+                    <span>03</span>
+                    <strong>JAVASCRIPT</strong>
+                    <em>INTERACTION</em>
+                    <b>↗</b>
+                </div>
+
+                <div class="skill-row reveal">
+                    <span>04</span>
+                    <strong>JAVA</strong>
+                    <em>PROGRAMMING</em>
+                    <b>↗</b>
+                </div>
+
+                <div class="skill-row reveal">
+                    <span>05</span>
+                    <strong>SQL</strong>
+                    <em>DATABASES</em>
+                    <b>↗</b>
+                </div>
+
+                <div class="skill-row reveal">
+                    <span>06</span>
+                    <strong>AWS</strong>
+                    <em>CLOUD</em>
+                    <b>↗</b>
+                </div>
+
+                <div class="skill-row reveal">
+                    <span>07</span>
+                    <strong>DOCKER</strong>
+                    <em>CONTAINERS</em>
+                    <b>↗</b>
+                </div>
+
+                <div class="skill-row reveal">
+                    <span>08</span>
+                    <strong>FIGMA</strong>
+                    <em>UI / UX</em>
+                    <b>↗</b>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             WORK
+        ================================== -->
+
+        <section class="section work" id="work">
+
+            <div class="section-top reveal">
+
+                <span class="section-number">
+                    03
+                </span>
+
+                <span class="section-name">
+                    SELECTED WORK
+                </span>
+
+            </div>
+
+
+            <div class="work-heading reveal">
+
+                <div>
+
+                    <p class="small-label">
+                        FEATURED PROJECTS
+                    </p>
+
+                    <h2>
+                        THINGS I'VE
+                        <span>BUILT.</span>
+                    </h2>
+
+                </div>
+
+                <p>
+                    Explore the websites I've designed
+                    and developed.
+                </p>
+
+            </div>
+
+
+            <div class="projects">
+
+
+                <!-- PIZZA -->
+
+                <a
+                    href="PIZZA/index.html"
+                    class="project-card project-link reveal"
+                >
+
+                    <div class="project-visual pizza-visual">
+
+                        <div class="project-bg-grid"></div>
+
+                        <div class="project-icon">
+                            🍕
+                        </div>
+
+                        <span class="project-index">
+                            01
+                        </span>
+
+                        <span class="live-badge">
+                            LIVE SITE ↗
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-details">
+
+                        <div>
+
+                            <span class="project-type">
+                                WEB DEVELOPMENT
+                            </span>
+
+                            <h3>
+                                Pizzaiolo
+                            </h3>
+
+                            <p>
+                                Interactive restaurant website
+                                designed to create an engaging
+                                digital ordering experience.
+                            </p>
+
+                        </div>
+
+                        <div class="project-arrow">
+                            ↗
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JAVASCRIPT</span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- SALON -->
+
+                <a
+                    href="SALON/index.html"
+                    class="project-card project-link reveal"
+                >
+
+                    <div class="project-visual salon-visual">
+
+                        <div class="project-bg-grid"></div>
+
+                        <div class="project-icon">
+                            ✂️
+                        </div>
+
+                        <span class="project-index">
+                            02
+                        </span>
+
+                        <span class="live-badge">
+                            LIVE SITE ↗
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-details">
+
+                        <div>
+
+                            <span class="project-type">
+                                WEB DEVELOPMENT
+                            </span>
+
+                            <h3>
+                                Salon
+                            </h3>
+
+                            <p>
+                                Elegant salon experience focused
+                                on modern visuals, services and
+                                customer interaction.
+                            </p>
+
+                        </div>
+
+                        <div class="project-arrow">
+                            ↗
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JAVASCRIPT</span>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             WHAT I DO
+        ================================== -->
+
+        <section class="section services">
+
+            <div class="section-top reveal">
+
+                <span class="section-number">
+                    04
+                </span>
+
+                <span class="section-name">
+                    WHAT I DO
+                </span>
+
+            </div>
+
+
+            <div class="services-grid">
+
+                <article class="service reveal">
+
+                    <span>01</span>
+
+                    <h3>
+                        FRONT-END
+                        DEVELOPMENT
+                    </h3>
+
+                    <p>
+                        Responsive and interactive websites
+                        built with modern HTML, CSS and
+                        JavaScript.
+                    </p>
+
+                </article>
+
+
+                <article class="service reveal">
+
+                    <span>02</span>
+
+                    <h3>
+                        UI / UX
+                        DESIGN
+                    </h3>
+
+                    <p>
+                        Clean interfaces and user experiences
+                        designed with usability and visual
+                        hierarchy in mind.
+                    </p>
+
+                </article>
+
+
+                <article class="service reveal">
+
+                    <span>03</span>
+
+                    <h3>
+                        CREATIVE
+                        INTERACTIONS
+                    </h3>
+
+                    <p>
+                        Motion, hover effects and interactive
+                        elements that make websites feel
+                        alive.
+                    </p>
+
+                </article>
+
+
+                <article class="service reveal">
+
+                    <span>04</span>
+
+                    <h3>
+                        CLOUD &
+                        TECHNOLOGY
+                    </h3>
+
+                    <p>
+                        Experience working with AWS, Docker,
+                        databases and development environments.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             EDUCATION
+        ================================== -->
+
+        <section class="section education">
+
+            <div class="section-top reveal">
+
+                <span class="section-number">
+                    05
+                </span>
+
+                <span class="section-name">
+                    EDUCATION
+                </span>
+
+            </div>
+
+
+            <div class="education-card reveal">
+
+                <div>
+
+                    <span class="education-label">
+                        SHERIDAN COLLEGE
+                    </span>
+
+                    <h2>
+                        ADVANCED DIPLOMA
+                    </h2>
+
+                    <p>
+                        Computer / Information Technology
+                        focused studies including programming,
+                        databases, web development, cloud
+                        technologies and UI design.
+                    </p>
+
+                </div>
+
+
+                <div class="education-year">
+                    2026
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================
+             CONTACT
+        ================================== -->
+
+        <section class="contact" id="contact">
+
+            <div class="contact-glow"></div>
+
+            <div class="contact-inner">
+
+                <p class="small-label reveal">
+                    HAVE A PROJECT IN MIND?
+                </p>
+
+                <h2 class="reveal">
+                    LET'S BUILD
+                    SOMETHING
+                    <span>GREAT.</span>
+                </h2>
+
+
+                <a
+                    href="mailto:kunjp597@gmail.com"
+                    class="contact-email reveal"
+                >
+                    kunjp597@gmail.com
+                    <span>↗</span>
+                </a>
+
+
+                <div class="contact-links reveal">
+
+                    <a
+                        href="#"
+                        class="placeholder-link"
+                        title="Add your GitHub URL"
+                    >
+                        GITHUB ↗
+                    </a>
+
+                    <a
+                        href="#"
+                        class="placeholder-link"
+                        title="Add your LinkedIn URL"
+                    >
+                        LINKEDIN ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =================================
+         FOOTER
+    ================================== -->
+
+    <footer>
+
+        <div>
+            © 2026 KUNJ PATEL
+        </div>
+
+        <div>
+            DESIGNED & BUILT WITH CODE
+        </div>
+
+        <a href="#home">
+            BACK TO TOP ↑
+        </a>
+
+    </footer>
+
+</body>
+</html>
